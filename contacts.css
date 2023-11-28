@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("B.jpg");
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+ #map {
+  float: right;
+  width: 770px;
+  height: 510px;
+  margin-left: 20px;
+}
+
+#contact-info{
+    float: left;
+    width: 770px;
+    height: 510px;
+    margin-left: 20px;
+    color: #fff;
+
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  span {
+    color: #f9004d;
+  }
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  nav ul li a:hover {
+    color: #f9004d;
+    transition: 0.4s;
+  }
+
+
+
+
+
